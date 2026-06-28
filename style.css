@@ -77,3 +77,45 @@ transform:scale(1.08);
 }
 
 }
+.login-box{
+    width:90%;
+    max-width:360px;
+    margin:auto;
+    margin-top:120px;
+    padding:30px;
+    background:#111827;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 0 25px cyan;
+}
+
+.login-box h1{
+    color:#00e5ff;
+    margin-bottom:10px;
+}
+
+.login-box p{
+    color:white;
+    margin-bottom:25px;
+}
+
+.login-box input{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    margin-bottom:20px;
+    font-size:17px;
+}
+
+.login-box button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#00e5ff;
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
