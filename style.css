@@ -98,18 +98,19 @@ transform:scale(1.08);
     color:white;
     margin-bottom:25px;
 }
-
 .login-box input{
-    width:100%;
+    width:90%;
     padding:15px;
     border:none;
-    border-radius:10px;
+    border-radius:12px;
     margin-bottom:20px;
     font-size:17px;
 }
 
+ }
+
 .login-box button{
-    width:100%;
+    width:90%;
     padding:15px;
     border:none;
     border-radius:10px;
