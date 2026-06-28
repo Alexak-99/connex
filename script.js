@@ -1,3 +1,3 @@
- function startAPP(){
-   alert("welcome to connex🚀");
- }  
+function startApp(){
+alert("Welcome to Connex 🚀");
+}
