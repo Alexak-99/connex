@@ -1,3 +1,3 @@
 settimeout(function () {
-  alert("welcome to connex 🚀");
+   window.loction.href = "login.html";
 }, 2500);
