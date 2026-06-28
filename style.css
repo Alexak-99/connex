@@ -127,6 +127,38 @@ cursor:pointer;
 }
 
 .chat:hover{
-transform:scale(1.02);
-transition:0.3s;
+    transform:scale(1.02);
+    transition:0.3s;
+}
+.search-box{
+    width:95%;
+    margin:20px auto;
+}
+
+.search-box input{
+    width:100%;
+    height:55px;
+    padding:0 20px;
+    border:none;
+    border-radius:30px;
+    font-size:18px;
+    outline:none;
+    background:#1f2937;
+    color:white;
+    box-shadow:0 0 10px #00e5ff;
+}
+
+.fab{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#00e5ff;
+    color:black;
+    font-size:30px;
+    border:none;
+    cursor:pointer;
+    box-shadow:0 0 20px cyan;
 }
