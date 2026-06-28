@@ -120,3 +120,18 @@ transform:scale(1.08);
     font-weight:bold;
     cursor:pointer;
 }
+.chat{
+width:90%;
+margin:15px auto;
+padding:15px;
+background:#111827;
+border-radius:15px;
+box-shadow:0 0 10px cyan;
+color:white;
+cursor:pointer;
+}
+
+.chat:hover{
+transform:scale(1.02);
+transition:0.3s;
+}
