@@ -1,3 +1,3 @@
-function startApp(){
-alert("Welcome to Connex 🚀");
-}
+settimeout(function () {
+  alert("welcome to connex 🚀");
+}, 2500);
