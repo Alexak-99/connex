@@ -1,7 +1,4 @@
-alert("Chat JS Loaded");
-console.log("Chat JS Loaded");
-
-const messages = document.getElementById("messages");
+ const messages = document.getElementById("messages");
 const input = document.getElementById("messageInput");
 
 function getTime() {
