@@ -231,3 +231,74 @@ color:white;
 font-size:30px;
 cursor:pointer;
 } 
+.chat-header{
+display:flex;
+align-items:center;
+background:#1c1c1c;
+padding:10px;
+}
+
+.chat-header img{
+width:45px;
+height:45px;
+border-radius:50%;
+margin:0 10px;
+}
+
+.chat-header h3{
+margin:0;
+}
+
+.chat-header small{
+color:#00ff66;
+}
+
+.chat-icons{
+margin-left:auto;
+font-size:22px;
+}
+
+.messages{
+padding:15px;
+height:75vh;
+background:#121212;
+}
+
+.received{
+background:#333;
+padding:10px;
+margin:10px 0;
+border-radius:10px;
+width:max-content;
+}
+
+.sent{
+background:#00c853;
+padding:10px;
+margin:10px 0;
+margin-left:auto;
+border-radius:10px;
+width:max-content;
+}
+
+.message-box{
+display:flex;
+padding:10px;
+background:#1c1c1c;
+}
+
+.message-box input{
+flex:1;
+padding:10px;
+border:none;
+border-radius:25px;
+}
+
+.message-box button{
+margin-left:10px;
+padding:10px 20px;
+border:none;
+background:#00c853;
+color:white;
+border-radius:50%;
+}
