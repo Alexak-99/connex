@@ -1,3 +1,5 @@
+console.log("chat js Loaded");
+alert("chat js Loaded");
 const messages = document.getElementById("messages");
 const input = document.getElementById("messageInput");
 
