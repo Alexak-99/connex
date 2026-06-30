@@ -338,3 +338,23 @@ border-radius:50%;
     text-align:right;
     margin-top:5px;
 }
+.message-info{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:6px;
+    margin-top:5px;
+}
+
+.status{
+    display:flex;
+    gap:3px;
+}
+
+.dot{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:red;
+    transition:0.3s;
+}
