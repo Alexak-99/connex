@@ -65,3 +65,12 @@ input.addEventListener("keydown", function(e) {
         sendMessage();
     }
 });
+const status = document.getElementById("status");
+
+setTimeout(() => {
+    status.innerText = "Typing...";
+}, 3000);
+
+setTimeout(() => {
+    status.innerText = "Online";
+}, 6000);
