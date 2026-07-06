@@ -1,3 +1,22 @@
+const params = new URLSearchParams(window.location.search);
+const user = params.get("user");
+
+const chatName = document.getElementById("chatName");
+const chatPhoto = document.getElementById("chatPhoto");
+
+const users = {
+    Ayush: 1,
+    Rohan: 2,
+    Priya: 3
+};
+
+if (user) {
+    chatName.innerText = user;
+
+    if (users[user]) {
+        chatPhoto.src = `https://i.pravatar.cc/45?img=${users[user]}`;
+    }
+}
 const messages = document.getElementById("messages");
 const input = document.getElementById("messageInput");
 
