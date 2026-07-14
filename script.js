@@ -1,8 +1,13 @@
- // Splash Screen Redirect
+ // Splash Screen Redirect (sirf index.html ke liye)
 
-setTimeout(function () {
-    window.location.href = "login.html";
-}, 2500);
+if (window.location.pathname.includes("index.html")) {
+
+    setTimeout(function () {
+        window.location.href = "login.html";
+    }, 2500);
+
+}
+
 const searchInput = document.getElementById("searchInput");
 
 if(searchInput){
