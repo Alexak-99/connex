@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -8,54 +8,86 @@
 </head>
 
 <body>
+
+<!-- Header -->
 <header class="top-bar">
 
-<div class="logo">
-<h2>CONNEX</h2>
-<small>Connect Freely</small>
-</div>
+    <div class="logo">
+        <h2>CONNEX</h2>
+        <small>Connect Freely</small>
+    </div>
 
-<div class="top-icons">
-
-<button class="icon-btn">🔍</button>
-
-<button class="icon-btn">➕</button>
-
-<button class="icon-btn">⋮</button>
-
-</div>
+    <div class="top-icons">
+        <button class="icon-btn">🔍</button>
+        <button class="icon-btn">➕</button>
+        <button class="icon-btn">⋮</button>
+    </div>
 
 </header>
- 
 
+<!-- Search -->
 <div class="search-box">
     <input type="text" placeholder="Search chats...">
 </div>
 
+<!-- Chat List -->
 <div class="chat-list">
-    
+
+    <div class="chat" onclick="location.href='chat.html?user=Ayush'">
+        <img src="https://i.pravatar.cc/60?img=1">
+        <div>
+            <h3>Ayush</h3>
+            <p>Hello Bro 👋</p>
+        </div>
+    </div>
+
+    <div class="chat" onclick="location.href='chat.html?user=Rohan'">
+        <img src="https://i.pravatar.cc/60?img=2">
+        <div>
+            <h3>Rohan</h3>
+            <p>Let's meet today.</p>
+        </div>
+    </div>
+
+    <div class="chat" onclick="location.href='chat.html?user=Priya'">
+        <img src="https://i.pravatar.cc/60?img=3">
+        <div>
+            <h3>Priya</h3>
+            <p>Good Morning ☀️</p>
+        </div>
+    </div>
+
+</div>
+
+<!-- Floating Add Friend Button -->
+<button class="add-btn">+</button>
+
+<!-- Bottom Navigation -->
+<nav class="bottom-nav">
+
+    <div class="nav-item active">
+        🏠
+        <span>Home</span>
+    </div>
+
+    <div class="nav-item">
+        👥
+        <span>Friends</span>
+    </div>
+
+    <div class="nav-item">
+        📷
+        <span>Status</span>
+    </div>
+
+    <div class="nav-item">
+        ⚙️
+        <span>Settings</span>
+    </div>
+
+</nav>
+
+<script src="script.js"></script>
+
 </body>
 </html>
-<div class="chat" onclick="location.href='chat.html?user=Ayush'">
-    <img src="https://i.pravatar.cc/60?img=1">
-    <div>
-        <h3>Ayush</h3>
-        <p>Hello bro 👋</p>
-    </div>
-</div>
-
-<div class="chat" onclick="location.href='chat.html?user=Rohan'">
-    <img src="https://i.pravatar.cc/60?img=2">
-    <div>
-        <h3>Rohan</h3>
-        <p>Let's meet today.</p>
-    </div>
-</div>
-
-<div class="chat" onclick="location.href='chat.html?user=Priya'">
-    <img src="https://i.pravatar.cc/60?img=3">
-    <div>
-        <h3>Priya</h3>
-        <p>Good Morning ☀️</p>
-    </div>
-</div>
